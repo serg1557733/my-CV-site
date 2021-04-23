@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+h1 {
+    margin-top: 75px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    text-transform: uppercase;
+    color: #211f27;
+
+}
+.header{
+    background:url(img/bg/headerbg.jpg) center center/cover no-repeat;
+
+}
+.main_header {
+    min-height: 200px;
+    padding: 39px 0 58px 0;
+}
+
+.main_foto{
+    
+}
+.foto{
+    position: absolute;
+    max-width: 400px;
+    border-radius: 100%;
+    margin-top: 20px;
+}

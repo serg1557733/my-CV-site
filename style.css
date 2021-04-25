@@ -3,39 +3,70 @@
     margin: 0;
     padding: 0;
 }
+html {
+
+    font-family: 'Roboto', serif;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
-    position: relative;
 }
 h1 {
-    margin-top: 75px;
-    text-align: center;
-    font-family: Roboto;
+    margin-top: 55px;
+    text-align:center;
     font-style: normal;
     font-weight: 900;
-    font-size: 41px;
+    font-size: 61px;
     text-transform: uppercase;
-    color: #211f27;
-
+    color: #332f3f;   
 }
-.header{
+header {
     background:url(img/bg/headerbg.jpg) center center/cover no-repeat;
 
 }
 .main_header {
     min-height: 200px;
-    padding: 39px 0 58px 0;
+    padding: 39px 0 0px 0;
+    position: relative;
 }
-
-.main_foto{
-    
+.h2_header{
+    text-align:right;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    color: #332f3f; 
 }
-.foto{
+.main_header .foto{
     position: absolute;
-    max-width: 400px;
-    border-radius: 100%;
-    margin-top: 20px;
+    top: 32px; /* Расстояние от верхнего края */
+    left: 0px; /* Расстояние от левого края */ 
+    bottom: 0; 
+    right: 100px;
+    max-width: 300px;
+    border-radius: 100%; 
+    transition: 1s;
+}
 
-    
+.foto:hover {
+    transform: scale(1.2);
+}
+
+.main_header a {
+    margin-top: 10px;
+    float: right;
+    text-decoration:none;
+    font-style: normal;
+    color: rgb(34, 14, 105);
+    font-size: 25px;
+}
+.main_header a::before {
+    content: "";
+    display: inline-block;
+    background-image:url(img/icons/secured-letter.png) ;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+
 }

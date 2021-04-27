@@ -111,7 +111,7 @@ h1 {
     max-width: 1000px;
     margin: 150px 0 0 0;
     text-indent: 20px;
-    font-size: 25px;
+    font-size: 18px;
     border-radius:10px;
     border: black solid;
     padding: 15px;
@@ -125,6 +125,10 @@ h1 {
 .skills_desc {
     margin: 5px auto;
 }
+.skills_float {
+    margin-top: 0px;
+}
+
 .main_text {
     display: flex;
     justify-content: center;

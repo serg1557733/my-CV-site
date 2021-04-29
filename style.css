@@ -42,20 +42,21 @@ h1 {
 }
 .main_header .foto{
     position: absolute;
-    top: 32px; /* Расстояние от верхнего края */
-    left: 0px; /* Расстояние от левого края */ 
+    top: 32px; 
+    left: 0px; 
     bottom: 0; 
     right: 100px;
     max-width: 300px;
     border-radius: 100%; 
     transition: 1s;
+    border:rgb(174, 174, 185) solid;
 } 
 
 .main_header h2::before {
-    content: "alpha version/adaptation";
+    content: "in the process of revision";
     margin-right: 10px;
     font-style: italic;
-    font-size: 11px;
+    font-size: 14px;
     color: #443f53;  
 }
  
@@ -110,7 +111,6 @@ h1 {
 .about_deck {
     max-width: 1000px;
     margin: 150px 0 0 0;
-    text-indent: 20px;
     font-size: 18px;
     border-radius:10px;
     border: black solid;
@@ -124,11 +124,19 @@ h1 {
 }
 .skills_desc {
     margin: 5px auto;
+    transition: 0.9s;
+}
+.skills_desc:hover {
+    transform: scale(1.1, 1.1);
 }
 .skills_float {
     margin-top: 0px;
+    transition: 0.9s;
+    
 }
-
+.skills_float:hover{
+    transform: scale(1.1, 1.1);
+}
 .main_text {
     display: flex;
     justify-content: center;
